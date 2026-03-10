@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GDOT TDP Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; padding: 0; }
+    img { max-width: 100%; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <img src="https://raw.githubusercontent.com/willbutler83/GDOT-TDP/7e62fa82109eec92517275f8ebd0e603f15cd57a/TDP_Map.png"
+      usemap="#image-map"
+      width="700" height="800"  <!-- update to your image's real size -->
+      alt="GDOT TDP Map">
+  <map name="image-map">
+    <!-- Example, update all targets -->
+    <area target="_blank" alt="Northwest Georgia" title="Northwest Georgia" href="https://regionaltdp-gdot.hub.arcgis.com/pages/e07f5c940bff447aaf0285ecc7f06969/#NWGRC" coords="30,39,73,240,94,230,103,229,103,211,127,219,145,215,144,195,143,172,152,171,153,120,161,119,163,125,202,122,202,110,191,103,190,91,197,93,203,88,211,85,219,67,219,56,212,49,218,43,209,34,209,26,215,28,165,32,123,34,60,37" shape="poly">
+    <!-- ... repeat for all other <area> tags, change target as above ... -->
+  </map>
+</body>
+</html>
